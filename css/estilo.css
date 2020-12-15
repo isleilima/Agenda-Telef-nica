@@ -1,0 +1,13 @@
+.botao-linha{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: gray;
+    
+    
+}
+body{
+    border-color:2px blue;
+}
+#container{
+    padding: center;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="org.isleilima.appAgenda"
+        version="1.0.0">
+    <name>
+        App Agenda Telefônica
+    </name>
+
+    <description>
+       Aplicativo para lista Telefônica
+    </description>
+
+    <author href="http://isleilima.com.br" email="isleion@gmail.com">
+        Islei Lima
+     </author>   
+    <!-- 
+    xlarge (xhdpi): at least 960 × 720
+    large (hdpi): at least 640 × 480
+    medium (mdpi): at least 470 × 320
+    small (ldpi): at least 426 × 320 
+    -->
+    <plugin name="cordova-plugin-splashscreen" />
+    <gap:splash src="images/imagem-ldpi.jpg" gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="images/imagem-mdpi.jpg" gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="images/imagem-hdpi.jpg" gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="images/imagem-xhdpi.jpg" gap:platform="android" gap:qualifier="port-xhdpi" />
+</widget>
